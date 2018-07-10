@@ -257,7 +257,6 @@ h3 {
     padding: 10px;
     border-radius: 5px;
     border-style: none;
-    margin: 10px;
 }
 
 ::placeholder {
@@ -271,16 +270,16 @@ h3 {
     padding: 10px;
     border-radius: 5px;
     border-style: none;
-    margin: 10px;
+    margin: 0px;
 }
 
 .contact {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
     height: 200px;
+    width: 100%;
+    padding: 10px;
 }
 
 .copy-right {
@@ -294,6 +293,8 @@ h3 {
     display: inline;
 }
 
+
+
 .copy-right a {
     color: #000;
     text-decoration: none;
@@ -302,13 +303,23 @@ h3 {
 
 .footer-height {
     line-height: 80px;
-    text-align: center;
-}
-
-footer .row {
+    padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 input:focus, textarea:focus {
     outline-width: 0;
+}
+
+.center {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-height ul {
+    margin: 0;
+    padding: 0;
 }
